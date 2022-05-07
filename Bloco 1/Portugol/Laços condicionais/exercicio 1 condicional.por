@@ -14,7 +14,7 @@ ZERO.
          funcao inicio()
 	{
 	
-		inteiro peso, excesso, multa
+		real peso, excesso, multa
 		escreva("Digite o peso de seu saco de tomates:")
 		leia(peso)
 		
@@ -23,17 +23,19 @@ ZERO.
            escreva("\nPeso excedente ao limite regulamentado!")
 
            excesso=(peso -50)
-           escreva("\nExcesso de peso em" + excesso + "kg:")
+           escreva("\nExcesso de peso em" + excesso, "kg:")
            
            multa=(excesso*4)
-           escreva("\nSua multa por exceder o limite é de:" + multa + )     }       
+           escreva("\nSua multa por exceder o limite é de:" + multa) 
+           }       
            
-           senao se(peso<50)  
+           senao se(peso<50){ 
+           	excesso= 0
+           	multa= 0  
+          
            escreva("\nNão há excesso de peso em seu saco de tomates.")   
            
-          
-           escreva(peso + "\npeso total" + multa + "\npeso excedente ")
-                                                                          
+           }
 
 	}
 }
@@ -47,7 +49,7 @@ ZERO.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1102; 
+ * @POSICAO-CURSOR = 1209; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

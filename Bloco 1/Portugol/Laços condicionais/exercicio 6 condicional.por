@@ -21,23 +21,24 @@ Adultos = Maiores de 18 anos
 		leia(idade)
 
 
-             se(idade>=4 ou idade<=7)
+             se(idade>=5 e idade<=7){
              
                escreva("\nInfantil A:")
              
-            senao se(idade>=7 e idade<=12)
+             }senao se(idade>=8 e idade<=11){
              
-               escreva("\nInfantilB:")
+               escreva("\nInfantil B:")
              
-            senao se(idade>=11 e idade<=14)
-               escreva("\nJuvenilA:")
+             }senao se(idade>=12 e idade<=13){
+               escreva("\nJuvenil A:")
              
-            senao se(idade>=13 e idade<=18)
-               escreva("\nJuvenilB")
+             } senao se(idade>=14 e idade<=17){
+               escreva("\nJuvenil B")
               
-            senao se(idade>= 17 e idade<=100)
-               escreva("Adultos:")
-              
+             }senao se(idade>= 17 e idade<=100){
+               escreva("Adultos:")}
+
+               
 		}
      }
 
@@ -47,7 +48,7 @@ Adultos = Maiores de 18 anos
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 317; 
+ * @POSICAO-CURSOR = 465; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

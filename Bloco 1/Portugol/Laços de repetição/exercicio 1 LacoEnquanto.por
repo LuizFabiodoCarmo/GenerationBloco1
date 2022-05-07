@@ -18,12 +18,12 @@ negativo.
          enquanto(n2!=0)
 		{  
 		 escreva("\nO resultado é;",n1+n2)
-		 se(n1+n2=<0)
-		 escreva("Digite dois números para a soma")
+	      escreva("\nDigite dois números para efetuar a soma")
 		 leia(n1,n2)
+		}
 		  escreva("\nO número inserido é um número negativo,fim do programa!!")
            
-		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,7 +31,7 @@ negativo.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 708; 
+ * @POSICAO-CURSOR = 617; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
