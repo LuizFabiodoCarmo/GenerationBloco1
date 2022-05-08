@@ -9,10 +9,11 @@ quantas foram as ocorrências da maior pontuação.
  */
 	
 	funcao inicio()
-	{    inteiro lance[10], dado
+	{    inteiro lance[10], dado
 	     para(dado=0;dado<10;dado++)
 	         (lance[10])
-	     escreva("\ndigite o primeiro valor obtido ao lançar o dado:")
+	     escreva("\nDigite o valor obtido ao lançar o dado:")
+	     leia(dado)
 	     
 	
 		
@@ -23,7 +24,7 @@ quantas foram as ocorrências da maior pontuação.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 413; 
+ * @POSICAO-CURSOR = 495; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

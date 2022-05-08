@@ -8,6 +8,7 @@ atividade e o escreva em seguida. Encontre após a maior pontuação e a apresen
 	
 	funcao inicio()
 	{    inteiro v[5],x
+	     inteiro maiorP=0
 		para(x=0;x<5;x++){
 		escreva("\nDigite o valor de sua primeira pontuação:")
 		leia(v[0])
@@ -18,7 +19,18 @@ atividade e o escreva em seguida. Encontre após a maior pontuação e a apresen
 		escreva("\nDigite o valor de sua quarta pontuação:")
 		leia(v[3])
           escreva("\nDigite o valor de sua quinta pontuação:")
-		leia(v[4])}
+		leia(v[4])
+
+          se(maiorP< v[x]){
+             maiorP= v[x]
+           }
+          }
+		
+		para(x=0;x<5;x++){
+		    escreva(v[x],"\n")	
+			}
+		escreva("\nMaior pontuação:"+maiorP)
+		
           
           	
           
@@ -30,7 +42,7 @@ atividade e o escreva em seguida. Encontre após a maior pontuação e a apresen
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 219; 
+ * @POSICAO-CURSOR = 803; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {v, 10, 14, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
