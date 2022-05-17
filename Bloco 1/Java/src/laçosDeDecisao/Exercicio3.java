@@ -19,17 +19,20 @@ public class Exercicio3 {
 				+ "(insira apenas números inteiros):");
 		idade=scan.nextInt();
 		
-	    if (idade<=9)
+	    if (idade<=9) {
 	    	System.out.println("Esta idade não pertence a nenhuma categoria!");
-		
+	    }
+	    if (idade>25) {
+	    	System.out.println("Esta idade não pertence a nenhuma categoria!");
+	    }
 	    else if (idade>= 10 && idade<=14);
-			 System.out.println("de acordo com sua idade, "+idade+ "sua categoria é infantil");	 
+			 System.out.println("de acordo com sua idade, "+(idade>= 10 && idade<=14)+ " sua categoria é infantil");	 
 			 	 	 
 			 if (idade>= 15 && idade<= 17);{
-			 System.out.println("de acordo com sua idade, "+idade+" sua categoria é juvenill");
+			 System.out.println("de acordo com sua idade, "+(idade>= 15 && idade<= 17)+" sua categoria é juvenill");
 			 
 			 } if (idade>= 18 && idade<= 25);
-			 System.out.println("de acordo com sua idade ,"+idade+" sua categoria é adulto");
+			 System.out.println("de acordo com sua idade ,"+(idade>= 18 && idade<= 25)+" sua categoria é adulto");
 			 
 		
 		
