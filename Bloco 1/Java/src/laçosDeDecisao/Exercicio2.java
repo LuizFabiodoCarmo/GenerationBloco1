@@ -1,4 +1,4 @@
-package OrientaçãoAObjetos;
+package laçosDeDecisao;
 
 public class Exercicio2 {
 

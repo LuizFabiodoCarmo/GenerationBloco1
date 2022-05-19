@@ -14,7 +14,7 @@ public class Exercicio5 {
 	  
 	  do {
 	  System.out.println("Por favor, digite um número:(O programa será encerrado"
-	  		+ " e todos os valores digitados somados ao digitar 0.)");
+	  		+ " e todos os valores digitados somados, ao digitar 0.)");
 	   n= scan.nextInt();
 	   soma = soma + n;
 	  
